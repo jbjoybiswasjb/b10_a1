@@ -1,0 +1,34 @@
+/* Google fonts. */
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital@0;1&display=swap');
+
+/* Fonts name, weight. */
+.azeret-mono-regular {
+    font-weight: 400;
+}
+
+.azeret-mono-medium {
+    font-weight: 500;
+}
+
+.azeret-mono-semi-bold {
+    font-weight: 600;
+}
+
+.azeret-mono-bold {
+    font-weight: 700;
+}
+
+.azeret-mono-extra-bold {
+    font-weight: 800;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
