@@ -97,6 +97,25 @@ main {
     border-radius: 1rem;
 }
 
+.common_article {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.common_article h3 {
+    color: #0D1321;
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+.common_article p {
+    margin: 1.5rem 0 3rem;
+    color: #0D1321;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
 /* 
                                     Why web development section.
     =======================================================================================
@@ -163,19 +182,6 @@ main {
     margin: 6rem 0 9.5rem;
 }
 
-#my_inspiration_section h3 {
-    color: #0D1321;
-    font-weight: 800;
-    font-size: 2rem;
-}
-
-#my_inspiration_section article p {
-    margin: 1.5rem 0 3rem;
-    color: #0D1321;
-    font-size: 1rem;
-    font-weight: 400;
-}
-
 #my_inspiration_section iframe {
     padding: 2rem;
     border-radius: 3rem;
@@ -191,6 +197,7 @@ main {
                                     My current target section.
     =======================================================================================
 */
+
 
 
 
