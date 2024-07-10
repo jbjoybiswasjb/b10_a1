@@ -6,6 +6,10 @@
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 body {
     font-family: "Azeret Mono", monospace;
     font-optical-sizing: auto;
@@ -34,7 +38,6 @@ body {
 }
 
 .header_top a {
-    text-decoration: none;
     font-size: 1.25rem;
     color: #0D1321;
     padding: 1.063rem 1.5rem;
@@ -44,6 +47,42 @@ body {
     opacity: 0.8;
 }
 
+
+/* Banner section. */
+#banner_section {
+    background-image: url("../assets/media/images/hero_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+#banner_section div {
+    padding: 2.75rem 13.75rem;
+}
+
+#banner_section h2 {
+    font-weight: 800;
+    font-size: 3rem;
+    color: #0D1321;
+    margin: 2rem 0 1.5rem;
+}
+
+#banner_section p {
+    color: #0D1321;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+#banner_section a {
+    background-color: #0D1321;
+    padding: 1.313rem 1.5rem;
+    border-radius: 0.5rem;
+    color: #fff;
+    display: inline-block;
+    font-size: 1.25rem;
+}
 
 
 
