@@ -304,7 +304,62 @@ main {
 }
 
 
+/* 
+                                    I need support section.
+    =======================================================================================
+*/
+#i_need_support_section {
+    background-image: url("../assets/media/images/handshake.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 5rem;
+    text-align: center;
+    border-radius: 1rem;
+}
 
+#i_need_support_section div {
+    border-radius: 1rem;
+    padding: 4rem 3rem;
+    background-color: rgba(13, 19, 33, 0.4)
+}
+
+#i_need_support_section div h4 {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+#i_need_support_section div p {
+    color: #CDC9C7;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 3rem;
+}
+
+#i_need_support_section div>label input {
+    padding: 1.25rem;
+    width: 65%;
+    border-radius: .5rem;
+    border: none;
+}
+
+#i_need_support_section div>label input[placeholder="Suggest me any feedback for me"] {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+#i_need_support_section div>label button {
+    padding: 1.1rem 1.25rem;
+    color: #0D1321;
+    font-weight: 600;
+    font-size: 1.25rem;
+    background-color: #fff;
+    border-radius: .5rem;
+    border: none;
+}
 
 
 
