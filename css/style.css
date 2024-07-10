@@ -1,27 +1,6 @@
 /* Google fonts. */
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital@0;1&display=swap');
 
-/* Fonts name, weight. */
-.azeret-mono-regular {
-    font-weight: 400;
-}
-
-.azeret-mono-medium {
-    font-weight: 500;
-}
-
-.azeret-mono-semi-bold {
-    font-weight: 600;
-}
-
-.azeret-mono-bold {
-    font-weight: 700;
-}
-
-.azeret-mono-extra-bold {
-    font-weight: 800;
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -30,5 +9,55 @@
 body {
     font-family: "Azeret Mono", monospace;
     font-optical-sizing: auto;
+    font-weight: 400;
     font-style: normal;
 }
+
+
+/* 
+                                                Header.
+    ===========================================================================================
+*/
+
+/* Header top. */
+.header_top {
+    margin: 2.375rem 9.375rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_top h2 {
+    font-size: 1.75rem;
+    font-weight: 800;
+    color: #0D1321;
+}
+
+.header_top a {
+    text-decoration: none;
+    font-size: 1.25rem;
+    color: #0D1321;
+    padding: 1.063rem 1.5rem;
+    font-weight: 600;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 0.5rem;
+    opacity: 0.8;
+}
+
+
+
+
+
+/* 
+                                                Main.
+    ===========================================================================================
+*/
+
+
+
+
+
+/* 
+                                            Footer.
+    ===========================================================================================
+*/
