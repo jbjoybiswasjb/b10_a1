@@ -10,6 +10,11 @@ a {
     text-decoration: none;
 }
 
+img {
+    height: auto;
+    max-width: 100%;
+}
+
 body {
     font-family: "Azeret Mono", monospace;
     font-optical-sizing: auto;
@@ -70,7 +75,7 @@ body {
 }
 
 #banner_section p {
-    color: #0D1321;
+    color: #474B55;
     font-weight: 400;
     font-size: 1rem;
     margin-bottom: 2rem;
@@ -111,7 +116,7 @@ main {
 
 .common_article p {
     margin: 1.5rem 0 3rem;
-    color: #0D1321;
+    color: #555963;
     font-size: 1rem;
     font-weight: 400;
 }
@@ -146,6 +151,12 @@ main {
     background: transparent;
 }
 
+#why_web_development article.why_web_development_article h3 {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #0D1321;
+}
+
 #why_web_development article h3 {
     font-weight: 700;
     font-size: 1.5rem;
@@ -156,7 +167,7 @@ main {
     margin: 1rem 0 2rem;
     font-weight: 400;
     font-size: 1rem;
-    color: #0D1321;
+    color: #565A64;
 }
 
 #why_web_development article a {
@@ -217,7 +228,7 @@ main {
 }
 
 .current_targets_articles p {
-    color: #0D1321;
+    color: #61636A;
     font-weight: 400;
     font-size: 1rem;
     margin-bottom: 1.5rem;
@@ -227,7 +238,7 @@ main {
     font-weight: 700;
     font-size: 1rem;
     color: #0D1321;
-    text-decoration: underline;
+    border-bottom: 2px solid #0D1321;
 }
 
 .current_targets_articles_red {
@@ -242,6 +253,55 @@ main {
     background: rgba(255, 223, 0, 0.05);
 }
 
+
+/* 
+                                    My next target section.
+    =======================================================================================
+*/
+#my_next_target_section {
+    margin: 7rem 0 3rem;
+}
+
+#my_next_target_section section {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+#my_next_target_section section>article {
+    padding: 3rem;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+#my_next_target_section section>article article h4{
+    margin-bottom: .5rem;
+    font-weight: 800;
+    font-size: 1.5rem;
+    color: #0D1321;
+}
+
+#my_next_target_section section>article article p {
+    color: #565A64;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
+
+#my_next_target_section section>article article a {
+    color: #0D1321;
+    font-weight: 700;
+    font-size: 1rem;
+    border-bottom: 2px solid #0D1321;
+}
+
+.for_react_icon {
+    width: 20%;
+}
 
 
 
