@@ -15,6 +15,10 @@ img {
     max-width: 100%;
 }
 
+ul {
+    list-style: none;
+}
+
 body {
     font-family: "Azeret Mono", monospace;
     font-optical-sizing: auto;
@@ -278,7 +282,7 @@ main {
     gap: 1.5rem;
 }
 
-#my_next_target_section section>article article h4{
+#my_next_target_section section>article article h4 {
     margin-bottom: .5rem;
     font-weight: 800;
     font-size: 1.5rem;
@@ -369,3 +373,27 @@ main {
                                             Footer.
     ===========================================================================================
 */
+footer {
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    padding: 2rem 0;
+}
+
+footer>section {
+    margin: 0 9.375rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer>section small {
+    color: #0D1321;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+footer>section div ul{
+    display: flex;
+    gap: 1.5rem;
+}
