@@ -15,6 +15,7 @@ body {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    background-color: #fff;
 }
 
 
@@ -93,7 +94,6 @@ body {
 */
 main {
     margin: 4.625rem 9.375rem;
-    background-color: rgba(13, 19, 33, 0.02);
     border-radius: 1rem;
 }
 
@@ -107,6 +107,8 @@ main {
     justify-content: space-between;
     flex-direction: column;
     gap: 2rem;
+    background-color: rgba(13, 19, 33, 0.02);
+    border-radius: 1rem;
 }
 
 #why_web_development article {
@@ -151,6 +153,40 @@ main {
     flex-direction: row-reverse;
     background: linear-gradient(90.00deg, rgb(255, 255, 255, 0), rgba(255, 255, 255) 100%);
 }
+
+/* 
+                                    Why web development section.
+    =======================================================================================
+*/
+#my_inspiration_section {
+    text-align: center;
+    margin: 6rem 0 9.5rem;
+}
+
+#my_inspiration_section h3 {
+    color: #0D1321;
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+#my_inspiration_section article p {
+    margin: 1.5rem 0 3rem;
+    color: #0D1321;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+#my_inspiration_section iframe {
+    padding: 2rem;
+    border-radius: 1rem;
+    height: 34.375rem;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    height: 34.375rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
 
 
 
